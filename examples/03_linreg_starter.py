@@ -5,7 +5,7 @@ cs20.stanford.edu
 Lecture 03
 """
 import os
-os.environ['TF_CPP_MIN_LOG_LEVEL']='2'
+os.environ['TF_CPP_MIN_LOG_LEVEL']='2'    #设置log日志级别
 import time
 
 import numpy as np

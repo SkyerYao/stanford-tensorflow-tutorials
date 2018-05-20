@@ -38,7 +38,7 @@ Y_predicted = X * w + b
 loss = tf.square(Y - Y_predicted, name='loss')
 # loss = utils.huber_loss(Y, Y_predicted)
 
-# Step 6: using gradient descent with learning rate of 0.01 to minimize loss
+# Step 6: using gradient descent with learning rate of 0.001 to minimize loss
 optimizer = tf.train.GradientDescentOptimizer(learning_rate=0.001).minimize(loss)
 
 with tf.Session() as sess:
